@@ -1,3 +1,6 @@
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
 body
 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -59,7 +62,7 @@ body
 }
 .noti
 {
-    margin: 0.5% 28% 10px ;
+    margin: 0.5% 29% 10px ;
     border: none;
 }
 .material-icons
@@ -79,11 +82,11 @@ body
     display: flex;
     flex-direction: column;
     width: 15%;
-    height: 1000px;
+    height: 1150px;
     
     float: left;
     margin-top: 1%;
-    background-color: aquamarine;
+    background-color: #ffffff;
 }
 .content
 {
@@ -116,14 +119,15 @@ body
 }
 .asideright
 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     display: flex;
     flex-direction: column;
     width: 10.5%;
     padding-left: 30px;
-    height: 1000px;
+    height: 1150px;
     float: right;
     margin-top: 1%;
-    background-color: aquamarine;
+    background-color: #ffffff;
 }
 .dollar, .euro ,.pound
 {
@@ -156,7 +160,7 @@ body
     font-size: 10px;
     display: flex;
     gap: 80px;
-    margin-top: 32rem;
+    margin-top: 50.5rem;
     color: grey;
 }
 
@@ -175,8 +179,9 @@ body
 .print
 {
     margin-top: 1%;
-    font-size: 15px;
+    font-size: 20px;
     cursor: pointer;
+    font-weight: bold;
     color: gray;  
 }
 
@@ -184,11 +189,11 @@ body
 {
     margin-top: 2%;
     margin-left: 18%;
-    background-color:darkslategrey ;
+    background-color:#302f41 ;
     color: white;
-    height: 170px;
-    font-size: 13px;
-    width: 1030px;
+    height: 230px;
+    font-size: 16px;
+    width: 63%;
     display: block;
     border-radius: 20px;
     padding: 20px 0px 0px 30px;
@@ -196,7 +201,16 @@ body
 .cross
 {
     display: flex;
-    gap: 44.5rem;
+    gap: 50rem;
+    font-size: 16.5px;
+}
+.grandpa
+{
+    position: absolute;
+    top: 12%;
+    right: 30%;
+    rotate: -2deg;
+    height: 43.4%;
 }
 .headi
 {
@@ -204,7 +218,7 @@ body
 }
 .learnmore
 {
-    background-color: white;
+    background-color: #ffffff;
     color: black;
     border: none;
     padding: 10px 13px;
@@ -212,17 +226,19 @@ body
 }
 .abbycooper
 {
-    background-color: aquamarine;
+    background-color: #ffffff;
     margin-left: 3%;
-    width: 35%;
+    width: 40%;
     display: block;
+    justify-content: center;
+    align-items: center;
     border-radius: 20px;
     padding: 30px;
 }
 .details1
 {
     display: flex;
-    font-size: 17px;
+    font-size: 20px;
     gap: 40px;
 }
 .bioans
@@ -232,14 +248,15 @@ body
 .add
 {
     color: gray;
-    font-size: 10px;
+    font-size: 16px;
 }
 .address
 {
-    font-size: 15px;
+    font-size: 20px;
     display: flex;
-    gap: 40px;
-    margin-left: 40px;
+    gap: 16% ;
+    margin-top: 9%;
+    margin-left: 9%;
 }
 .userprofile
 {
@@ -249,47 +266,59 @@ body
 .three
 {
     display: flex;
-    gap: 20%;
-    margin-top: 2%;
+    gap: 5%;
+    margin-top: 1%;
+    
 }
 .two
 {
     display: block;
+  
+    
+}
+.twoname
+{
+    font-weight: bold;
 }
 .arlene
 {
-    background-color: aquamarine;
+    background-color: #ffffff;
+    height: 150px;
     display: flex;
-    gap: 40px;
+    width: 29rem;
+    gap: 15%;
     border-radius: 20px;
     padding: 10px 20px 0px 0px;
     justify-content: center;
-    font-size: 12px;
+    align-items: center;
+    font-size: 15px;
 }
 .natasha
 { 
     margin-top: 2%;
-    width: 200px;
+    height: 150px;
     border-radius: 20px;
-    background-color: aqua;
+    background-color: #ffffff;
     display: flex;
     padding: 10px 20px 0px 0px;
-    gap: 40px;
-    font-size: 12px;
+    gap: 14%;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
 }
 .topic
 {
     display: flex;
-    gap: 49%;
+    gap: 40%;
     margin-top: 2%;
 }
 .nexttopic
 {
     margin-top: 2%;
     display: flex;
-    color: #376575;
+    color:#436f7e;
     gap :60px;
-    background-color: bisque;
+    font-size: 18px;
     width: 68%;
     margin-left: 16%;
 }
@@ -304,7 +333,6 @@ body
 }
 .nexttopic2
 {
-    
     gap:60%;
     justify-content: space-around;
     width: 48% ;
@@ -312,23 +340,76 @@ body
 }
 .table1
 {
-    display: flex;
-    background-color: rgb(255, 148, 17);
-    height: 300px;
+    display: block;
+    background-color: #ffffff;
+    height: 150px;
     margin-top: 2%;
     gap: 7%;
-    margin-left: 17%;
-    padding: 1%;
-    width: 31%;
+    border-radius: 7px;
+    padding: 18px 30px 18px 25px;
+    margin-left: 4%;
+
+    width: 40%;
 }
-.chsea
+.chhead
 {
-    justify-content: center;
-    margin-top: 2%; 
-    margin-bottom: 10%; 
+    display: flex;
+    gap: 13%;
+    margin-bottom: 20px;
+}
+.ch1, .ch2, .ch3, .ch4
+{
+    display: flex;
+   font-size: 10px;
+    column-gap: 13%;
+    color: gray;
+    padding: 5px;
+    margin-top: 10px;
+   
+}
+.ch1:hover
+{
+    background-color: aquamarine;
+}
+.tab2
+{
+    display: flex;
+    gap: 5%;
+    background-color: #f9f9f9;
+    height: 280px;
+}
+.dh1, .dh2, .dh3, .dh4
+{
+    display: flex;
+   font-size: 12px;
+    column-gap: 13%;
+    color: gray;
+    padding: 5px;
+    margin-top: 10px;
+}
+.table2
+{
+    display: block;
+    background-color:#ffffff;
+    height: 180px;
+    margin-top: 2%;
+    border-radius: 7px;
+    padding: 10px 0px 0px 25px;
+    gap: 7%;
+    width: 39%;
+}
+.dhead
+{
+    display: flex;
+    gap: 13%;
+    margin-bottom: 20px;
+}
+.download
+{
+    margin-left: 6%;
+}
+main
+{
+    background-color:#f9f9f9;
     
-}
-.chse
-{
-    margin-bottom: 20%;
 }
