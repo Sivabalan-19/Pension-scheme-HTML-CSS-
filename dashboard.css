@@ -17,6 +17,12 @@ body
 {
     margin:  1%  7%;
 }
+.material-icons
+{
+
+    border: none;
+    padding: 0%;
+}
 .search
 {
    
@@ -90,7 +96,8 @@ body
 }
 .content
 {
-    padding-top: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
     padding-left: 50px;
     font-size: 20px;
     
@@ -98,7 +105,9 @@ body
 .mainmenu1
 {
     padding-left: 50px;
-    padding-top: 20px;
+    padding-top: 7%;
+    padding-bottom: 6%;
+    margin-top: 10%;
     font-size: 15px;
     color: gray;
     margin-bottom: 10px;
@@ -107,13 +116,16 @@ body
 {
     margin-top: 70px;
     padding-left: 50px;
+    padding-top: 7%;
+    padding-bottom: 6%;
     font-size: 15px;
     color: gray;
     margin-bottom: 30px;
 }
 .conte
 {
-    padding-top: 7%;
+    padding-top: 5%;
+    padding-bottom: 5%;
     font-size: 20px;
     padding-left: 50px;
 }
@@ -209,7 +221,7 @@ body
     position: absolute;
     top: 12%;
     right: 30%;
-    rotate: -2deg;
+    rotate:  -2deg;
     height: 43.4%;
 }
 .headi
@@ -219,7 +231,7 @@ body
 .learnmore
 {
     background-color: #ffffff;
-    color: black;
+    color: #302f41 ;
     border: none;
     padding: 10px 13px;
     border-radius: 5px;
@@ -412,4 +424,87 @@ main
 {
     background-color:#f9f9f9;
     
+}
+
+
+.content:hover
+{
+    background-color:hsl(0, 0%, 90%) ;
+}
+.conte:hover
+{
+    background-color: hsl(0, 0%, 90%) ;
+}
+
+.mainmenu1:hover
+{
+   color: #302f41;
+   transition: all 0.5s;
+}
+.mainmenu2:hover
+{
+   color:#302f41 ;
+   transition: all 0.5s;
+}
+.userprofile:hover
+{
+    text-decoration: underline;
+    transition: all 0.2s;
+}
+
+.learnmore:hover
+{
+    background-color: #302f41 ;
+    color: white;
+    border: 1px solid white ;
+    transition: all 0.3s;
+}
+.print:hover
+{
+    color: black;
+    transition: all 0.3s;
+}
+.underline:hover
+{
+    text-decoration: underline;
+    transition: all 0.5s;
+}
+
+.arlene:hover
+{
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+.natasha:hover
+{
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+.abbycooper:hover
+{
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+.download:hover
+{
+    cursor: pointer;
+    color: black;
+}
+
+.ch1:hover, .dh1:hover
+{
+    background-color: hsl(0, 0%, 90%) ;
+   
+}
+.ch2:hover, .dh2:hover
+{
+    background-color: hsl(0, 0%, 90%) ;
+}
+.ch3:hover, .dh3:hover
+{
+    background-color: hsl(0, 0%, 90%) ;
+}
+.ch4:hover , .dh4:hover
+{
+    background-color: hsl(0, 0%, 90%) ;
 }
